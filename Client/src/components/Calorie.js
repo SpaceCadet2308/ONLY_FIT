@@ -8,14 +8,14 @@ const FoodTracker = () => {
 
   useEffect(() => {
     // Fetch all food entries
-    axios.get('http://localhost:8080/food/all')
+    axios.get('https://fitness-tracker-final.vercel.app/food/all')
       .then(response => setFoods(response.data))
       .catch(error => console.error(error));
   }, []);
 
   const handleAddFood = () => {
     // Add a new food entry
-    axios.post('http://localhost:8080/food/add', { name, calories })
+    axios.post('https://fitness-tracker-final.vercel.app/food/add', { name, calories })
       .then(response => {
         setFoods([...foods, response.data]);
         setName('');
@@ -26,7 +26,7 @@ const FoodTracker = () => {
 
   const handleDeleteFood = (id) => {
     // Delete a food entry
-    axios.delete(`http://localhost:8080/food/delete/${id}`)
+    axios.delete(`https://fitness-tracker-final.vercel.app/food/delete/${id}`)
       .then(() => {
         const updatedFoods = foods.filter(food => food._id !== id);
         setFoods(updatedFoods);
