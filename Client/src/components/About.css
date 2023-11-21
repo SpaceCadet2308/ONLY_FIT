@@ -1,0 +1,19 @@
+/* styles.css */
+
+.about-us-container {
+
+    background-color: #e8e8e8; /* Dark background color */
+    color: white; /* Orange text color */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+  }
+  
+  .about-us-container h2 {
+    color: #000000; /* White text color for the heading */
+  }
+  
+  .about-us-container p {
+    margin-bottom: 15px;
+  }
+  

@@ -1,0 +1,25 @@
+/* styles.css */
+
+.navbar {
+    background-color: #1a1a1a; /* Dark background color */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ff8c00; /* Orange text color */
+  }
+  
+  .logo a {
+    font-weight: 700;
+    color: #ff8c00; /* Orange text color for the logo */
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .nav-links a {
+    color: #fff; /* White text color for the links */
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  

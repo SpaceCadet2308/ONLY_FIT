@@ -1,0 +1,147 @@
+* {
+    font-family: Poppins;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .body-bmi {
+    margin: 0;
+    height: 100vh;
+    padding: 0;
+    border: 0;
+    background: #1a1a1a;
+  }
+  
+  .form-bmi {
+    background-color: #333;
+    height: 240px;
+    width: 450px;
+    border-radius: 20px;
+    margin: 20px auto;
+    display: block;
+    border: solid 1px #f57418;
+    box-shadow: 0 0 20px 0 #f57418;
+  }
+  
+  .form-bmi:hover {
+    box-shadow: 0 0 30px 0 #f57418;
+    transition: 0.4s;
+    transform: scale(1.02);
+  }
+  
+  .row-one-bmi {
+    padding: 30px 20px 15px 20px;
+  }
+  
+  .row-two-bmi {
+    padding: 15px 20px 30px 20px;
+  }
+  
+  .text-input-bmi {
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #4d4d4d;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  .text-input-bmi:last-child {
+    margin-bottom: 35px;
+  }
+  
+  .text-input-bmi:hover {
+    background-color: #666;
+  }
+  
+  #submit-bmi {
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 140px;
+    background-color: #f57418;
+    color: #fff;
+    margin: auto;
+    display: block;
+    outline: none;
+    cursor: pointer;
+    margin-top: -25px;
+  }
+  
+  .heading{
+    color: white;
+  }
+
+  #submit-bmi:hover {
+    background-color: #d76614;
+  }
+  
+  .text-bmi {
+    color: white;
+    display: inline-block;
+    margin: 5px 10px;
+  }
+  
+  .dropdown-bmi {
+    width: auto;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #4d4d4d;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+
+  h1 {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    color: #f57418;
+    padding-top: 15px;
+    display: block;
+  }
+  
+  h2 {
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+  }
+  
+  h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 550;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  h3 b {
+    font-size: 32px;
+    font-weight: 600;
+    color: #f57418;
+  }
+  
+  .checkbox-mark-bmi:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .checkbox-container-bmi input:checked ~ .checkbox-mark-bmi:after {
+    display: block;
+  }
+  
+  .checkbox-container-bmi .checkbox-mark-bmi:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
