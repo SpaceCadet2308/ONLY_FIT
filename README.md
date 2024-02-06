@@ -1,4 +1,4 @@
-<h1>Collaborators</h1> - <br>
+<h1>Collaborators</h1>
 Mukul Raghav: https://github.com/Mukul-svg <br>
 Rachit Bhalla: https://github.com/RachitBhalla15<br>
 Aryan: https://github.com/SpaceCadet2308<br>
