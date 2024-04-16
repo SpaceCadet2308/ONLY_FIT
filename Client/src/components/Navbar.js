@@ -22,7 +22,7 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className="logo">
-          <Link to="/home">OnlyFIT</Link>
+          <Link to="/">OnlyFIT</Link>
         </div>
         <div className="nav-links">
           <Link to="/bmi">BMI Calculator</Link>
