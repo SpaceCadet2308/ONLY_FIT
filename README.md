@@ -81,6 +81,3 @@ Welcome to our fitness tracker website! This project aims to help users achieve 
 - [Atharva Mankame](https://github.com/Atharva-M1)
 - [Natanya Modi](https://github.com/natanyamodi)
 
-## License
-
-This project is licensed under the MIT License.
